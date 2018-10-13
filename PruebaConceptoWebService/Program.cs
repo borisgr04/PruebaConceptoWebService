@@ -18,10 +18,10 @@ namespace PruebaConceptoWebService
             transaction.TickedID = "1";
             var taxPaers=new WsPse.CLSTaxPaers();
             var response=pse.InsertTransaction(transaction, taxPaers);
-
+            Console.WriteLine(response);
             var obtenerInformationSegundaParte = pse.GetTransactionInformation("1", 1, "1");
             Console.WriteLine(obtenerInformation.Amount);
-
+            Console.ReadKey();
         }
     }
 }
