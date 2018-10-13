@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3bd40ba3-1dbd-4c0c-ba2a-faf07daa40f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address=" http://190.248.37.181:31440/WCFPasarela/GetDatos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GetDatos.xsd" MetadataType="Schema" ID="4c98fc35-01fc-493b-a0e9-db88380339db" SourceId="1" SourceUrl="http://190.248.37.181:31440/WCFPasarela/GetDatos.svc?xsd=xsd2" />
+    <MetadataFile FileName="GetDatos.wsdl" MetadataType="Wsdl" ID="a01f4dc4-2758-4f86-b13e-3aa452334814" SourceId="1" SourceUrl="http://190.248.37.181:31440/WCFPasarela/GetDatos.svc?wsdl" />
+    <MetadataFile FileName="GetDatos1.xsd" MetadataType="Schema" ID="67766cf0-55e5-49fc-8d75-da18a748f71f" SourceId="1" SourceUrl="http://190.248.37.181:31440/WCFPasarela/GetDatos.svc?xsd=xsd1" />
+    <MetadataFile FileName="GetDatos.disco" MetadataType="Disco" ID="71a8df7f-c96e-42ec-a0e3-f8d9586e46ae" SourceId="1" SourceUrl="http://190.248.37.181:31440/WCFPasarela/GetDatos.svc?disco" />
+    <MetadataFile FileName="GetDatos2.xsd" MetadataType="Schema" ID="b9d7e1dd-b9d6-4be3-9311-73018d4d34c6" SourceId="1" SourceUrl="http://190.248.37.181:31440/WCFPasarela/GetDatos.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
